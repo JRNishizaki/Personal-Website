@@ -5,7 +5,7 @@ html {
 
 html * {
     margin: 1em;
-    background: rgb(230, 230, 230);
+    background: white;
         
 }
 
@@ -20,52 +20,68 @@ html * {
 }
 
 h1 {
-    padding: 1em;
+    padding: 0.5em;
+    padding-left: 0;
+    margin: 0;
     font-weight: bold;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
+    color: rgb(252, 142, 11);
 }
 
 .im-a-p-class {
     position: relative;
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding: 1em;
-    border: 1px solid white;
-    color: white;
+    /*border: 1px solid white;*/
+    border: 1px solid rgb(252, 142, 11);
+    color: black;
     font-size: 1em;
     text-align: left;
-}
+} 
 
 .nav-bar {
-/*    height: 80%;*/
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: black;
-    overflow-x: hidden;
-    margin-left: 2em;
-    margin-top: 5%;
+    width: 100%;
+    height: 50px;
+    /*position: sticky;
+    top: 0;*/
+    margin: 0;
+    margin-bottom: 1em;
+    background: rgb(255, 170, 57);
 }
 
 .nav-bar a {
-    padding: 6px 8px 6px 30px;
-    text-decoration: none;
-    width: 15%;
+    width: 24.76%;
     line-height: 50px;
     text-align: center;
+    background: rgb(255, 170, 57);;
     color: white;
-    background: black;
-    display: block;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
 
 }
 
 .nav-bar a:hover { 
-    color: purple;
-    text-decoration: underline;
+    background: rgb(252, 142, 11);
 }   
+
+.julia {
+    text-align: center;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.box {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    margin-left: 35%;
+}
 
 /*section div {
     width: 25%;
